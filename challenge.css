@@ -1,0 +1,691 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+.content{
+    height:90%;
+    width: 80%;
+    justify-content: center;
+    
+    gap: 100px;
+    align-items: center;
+    display: grid;
+    margin: 10vh auto;
+    grid-template-rows: repeat(10, 1fr);
+    grid-auto-columns: 1fr;
+    grid-template-areas: "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six"
+    "seven"
+    "eight"
+    "nine"
+    "ten";
+    
+  
+}
+.heading {
+  background-image: url(/images/hero.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: block;
+  grid-area: one;
+  position: relative; 
+
+}
+.top {
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+.top p{
+    color: white;
+    left: 2opx;
+    padding-left: 80px;
+    font-size: 70px;
+    
+    
+}
+.top div{
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+    color: black;
+    justify-content: center;
+    padding-right: 60px;
+    padding-left: 0;
+    font-size: large;
+
+
+    
+}
+.top a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-weight: 500;
+
+    
+    
+    
+}
+.actions{
+    padding-right: 20px;
+    gap: 20px;
+}
+.actions button{
+    padding-right: 40px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border-color: dodgerblue;
+    height: 40px;
+    display: flex;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+
+}
+.center h1{
+    color:white;
+    font-size: 50px;
+}
+.center p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.battons{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+.battons h2{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 24px;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10px;
+    
+
+}
+.battons h3{
+    border-color: white;
+    color: white;
+    border-radius: 24px;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid;
+    background-color: none;
+}
+.bottom{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:50px ;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+
+    
+}
+.peace{
+    text-align: left;
+    display: block;
+    height: 80%;
+    width: 90%;
+    padding: 30px 30px 30px 30px;
+    background-color:white;
+
+    bottom: 0;
+    
+    
+    
+
+}
+
+
+.life{
+    text-align: left;
+    display: block;
+    height: 80%;
+    width: 90%;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+    
+}
+
+    
+
+
+
+
+.satisfaction{
+    text-align: left;
+    display: block;
+    height: 80%;
+    width: 90%;
+    padding: 30px 30px 30px 30px;
+    background-color:dodgerblue;
+    color: white;
+    bottom: 0;
+    
+}
+#group{
+    color:dodgerblue; 
+    font-size: 50px;
+  }
+#groups{
+    color:white; 
+    font-size: 50px;
+  }
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    grid-area: two;
+    margin: 80px;
+
+}
+#abot{
+    color: dodgerblue;
+    font-size: 70px;
+}
+.industry{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: three;
+    
+    
+
+}
+.userone{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    width: 250px;
+    background-color: azure;
+    padding: 30px 30px 100px 100px;
+
+}
+.stars{
+    align-self:center;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.people{
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    margin: 50px;
+}
+
+.industry h5{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.pic img{
+    height: 100px;
+    width: 100px;
+}
+.industry h5,
+.industry p {
+    margin: 5px;
+}
+.usertwo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    width: 250px;
+    background-color: azure;
+    padding: 30px 30px 100px 100px;
+
+}
+.userthree{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    width: 250px;
+    background-color: azure;
+    padding: 30px 30px 100px 100px;
+
+}
+.industry p{
+    font-size: 15px;
+}
+.logs{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding-left: 100px;
+    justify-content: center;
+    grid-area: four;
+}
+.logs img{
+    
+    width: 80px;
+    height: 70px;
+   
+    
+
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, blueviolet, deeppink);
+    padding: 20px;
+    height: 100px;
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: five;
+    
+    
+
+}
+.mail{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 100px;
+    height: 80px;
+    width: 900px;
+
+    border-radius: 10px;
+    margin-left: auto;
+    justify-content: center;
+
+}
+h6{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+.sub{
+    height: 80px;
+    width: 300px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+.mail p {
+    margin: 0; 
+}
+.sub p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.pricing{
+    display: block;
+    height: 90%;
+    width: 80%;
+    gap: 20px;
+    grid-area: six;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+}
+.pricing div{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.types{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.free{
+    display: block;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 2px solid;
+    text-align: center;
+    border-color: dodgerblue;
+    border-radius: 10px;
+}
+.price{
+    font-size: 20px;
+    color: dodgerblue;
+    font-weight: 400;
+}
+.ticks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cloud{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.ticks span{
+    background-color: seagreen;
+    color: white;
+    border-radius: 40%;
+}
+.cloud span{
+    background-color: gainsboro;
+    color: white;
+    border-radius: 40%;
+}
+.free label{
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100px;
+}
+.standard{
+    display: block;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    text-align: center;
+    border: 2px solid;
+    text-align: center;
+    border-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+}
+.standard label{
+    background-color: dodgerblue;
+    
+}
+.premium{
+    display: block;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    text-align: center;
+    border: 2px solid;
+    text-align: center;
+    border-color: dodgerblue;
+    border-radius: 10px;
+
+}
+.premium label{
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+.branches{
+    display: block;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslateblue;
+    height: 90%;
+    width: 80%;
+    padding: 100px;
+    grid-area:seven;
+    position: relative;
+}
+.topy{
+    display: flex;
+    gap: 20px;
+}
+.data{
+    display: block;
+    align-items: center;
+}
+.topy img{
+    margin-left: auto;
+    padding: 100px;
+    height: 400px;
+    width: 500px;
+}
+.topy p{
+    font-size: 20px;
+    color: white;
+}
+.topy h3{
+    font-size: 70px;
+    color: white;
+}
+.boto{
+    background-color: white;
+    height:70%;
+    width: 70%;
+    display: flex;
+    position: absolute;
+    bottom: -400px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 200px;
+    
+    
+}
+.boto img{
+    height: 100%;
+    width: 40%;
+}
+.form{
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+    
+}
+.appointment{
+    display: block;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.appointment span{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+}
+.form label{
+    display: block;
+    margin-bottom: 5px;
+}
+form{
+    
+    font-size: 20px;
+    font-weight: bold;
+    gap: 30px;
+}
+input[type="text"],
+input[type="email"],
+input[type="timestamp"]
+select{
+    
+    height: 50px;
+    width: 500px;
+    border: 2px;
+    outline: 2px;
+    background-color: gainsboro;
+    border-radius: 0px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+.form button{
+    height: 50px;
+    font-weight: bold;
+    width: 200px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    border-color: dodgerblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 10px auto;
+    cursor: pointer;
+
+    
+
+}
+.form h3{
+    text-align: center;
+    font-size:40px ;
+
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area:eight ;
+    padding: 20px;
+    margin-top: 500px;
+    background-color: aliceblue;
+    
+}
+.contact div{
+    display: block;
+    text-align: left;
+}
+.contact label{
+    display: flex;
+    margin-left: auto;
+    background-color: dodgerblue;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.last{
+    grid-area: nine;
+    display: flex;
+    gap: 10px;
+    
+    justify-content: space-between;
+    align-items: center;
+
+}
+.last p{
+    font-size: 30px;
+}
+.company{
+    display: block;
+}
+.legal{
+    display: block;
+}
+.features{
+    display: block;
+}
+.resources{
+    display: block;
+}
+.touch{
+    display: block;
+    gap: 10px;
+}
+.call{
+    display: flex;
+    align-items: center;
+    
+    text-align: center;
+}
+.meil{
+    display: flex;
+    align-items: center;
+    
+    text-align: center;
+}
+.location{
+    display: flex;
+    align-items: center;
+    
+    text-align: center;
+}
+.footer{
+    display: flex;
+    grid-area: ten;
+    align-items: center;
+    text-align: center;
+
+}
+.socials{
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+}
+#done{
+    font-size: 40px;
+    color: dodgerblue;
+}
+#mines{
+    font-size: 70px;
+    color: dodgerblue;
+}
+.footer h3{
+    font-size: 40px;
+    opacity: 50%;
+}
